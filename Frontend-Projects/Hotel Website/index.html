@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="clean.css">
+<link rel="stylesheet" href="style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,7 +65,7 @@
                     </li>
                     <br>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#luxury">Luxary Gateways</a>
+                        <a class="nav-link active" href="#luxury">Luxury Gateways</a>
                     </li>
                     <br>
                     <li class="nav-item">
@@ -80,38 +80,15 @@
         </div>
     </nav>
     <br>
-    <!-- Home/Search Section -->
+   
 
-    <!-- <div class="home">
-        <div class="innerBox">
-            <div class="selection">
-                <h2>City/Hotel</h2>
-                <input type="text" name="City" id="City" placeholder="    Goa">
-            </div>
-            <div class="selection">
-                <h2>Check In</h2>
-                <input type="Date" name="checkIn" id="checkIn" placeholder="2 May">
-            </div>
-            <div class="selection">
-                <h2>Check Out</h2>
-                <input type="Date" name="checkOut" id="checkOut" placeholder="4 May">
-            </div>
-            <div class="selection">
-                <h2>Rooms</h2>
-                <input type="number" name="rooms" id="rooms" placeholder="    2">
-            </div>
-            <br><br><br><br><br><br><br><br><br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="bn"> <button class="btn">Search</button></div>
-        </div>
 
-    </div> -->
-    <h2 style="text-align: center; "><span class="badge bg-primary">Find your desired hotel</span></h1>
-    <div class="container" id="me">
-        <form>
+    <h2 style="text-align: center; "><span class="badge1">Find your desired hotel</span></h1>
+    <div class="container cont" id="me">
+        <form class="form-container">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">City/Hotel</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter City/Hotel" >
 
             </div>
             <div class="mb-3">
@@ -124,14 +101,16 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Rooms</label>
-                <input type="number" class="form-control" id="exampleInputPassword1">
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Select Number of Rooms">
             </div>
-
-            <button type="submit" class="btn btn-primary">Find Hotel</button>
+            <button type="submit" class="btn btn-primary" id="find-btn">Find Hotel</button>
         </form>
     </div>
+
+              
     <br>
     <br>
+    
 
     </div>
     <div class="container" id="luxury">
@@ -183,27 +162,10 @@
 <br>
 
 
-    <!-- <div class="discount">
-        <div class="dCard">
-            <p>Get Upto 5% off using HDFC and ICICI Credit Cards</p>
-            <button class="btn-2">Book Now</button>
-        </div><br><br>
-        <div class="dCard">
-            <p>Get 15% off
-                on
-                Luxary Hotel
-                Bookings
-            </p>
-            <button class="btn-2">Book Now</button>
-
-        </div>
-
-    </div>
-
-    </div> -->
-    <h1 style="text-align: center; "><span class="badge bg-warning">OFFERS</span></h1>
+   
+    <h1 style="text-align: center; color: black;"><span class="badge bg-warning">OFFERS</span></h1>
     <div class="container">
-      <div class="row">
+      <div class="row" id="offer">
           <div class="col-12 col-md-6 col-lg-4">
               <div class="card" style=" margin: 20px; background-color: aqua;">
                   <img src="images/icici.png" class="card-img-top" alt="..." style="height: 168px;">
@@ -400,7 +362,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright:
+    © 2023 Copyright:
     <a class="text-white" href="" style="text-decoration: none;">Srinjoy</a>
   </div>
   <!-- Copyright -->
